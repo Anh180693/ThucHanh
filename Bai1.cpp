@@ -2,11 +2,14 @@
 
 int main(){
 	int n;
-	printf("Nhap vao so nguyen co 3 chu so : ");
-	scanf("%d",&n);
 	do{
-		printf("Nhap lai : ");
+		printf("Nhap vao so nguyen co 3 chu so : ");
 		scanf("%d",&n);
+		
+		if(n<100 || n>1000){
+			printf("Nhap lai : ");
+			scanf("%d",&n);
+		}
 	}
 	while(n<100 || n>1000);
 	
