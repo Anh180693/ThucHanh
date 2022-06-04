@@ -16,6 +16,7 @@ void sapxep(char arr[]){
 
 int main(){
 	char ary[100] = "AnhTuan";
-	printf("Chuoi sau khi sap xep la :  %s",sapxep(ary));
+	sapxep(ary);
+	printf("Chuoi sau khi sap xep la :  %s",ary);
 	
 }
